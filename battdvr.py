@@ -86,8 +86,7 @@ class BattDVR(BattPrefs):
             'fx': FXProcessor,
             'nbc': NBCProcessor,
             'syfy': SyFyProcessor,
-            'crackle': CrackleProcessor,
-            'discovery': DiscoveryProcessor,
+            'crackle': CrackleProcessor
         }
 
     def _get_provider_opts(self):
